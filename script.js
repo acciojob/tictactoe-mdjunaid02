@@ -1,4 +1,5 @@
 //your JS code here. If required.
+document.addEventListener(){
 document.getElementById('submit').onclick=function(){
 	document.querySelector('.input-section').style.display='none';
 	document.querySelector('.game-section').style.display='block';
@@ -30,3 +31,4 @@ cell.forEach(cell => {
 	}
 });
 }
+};
