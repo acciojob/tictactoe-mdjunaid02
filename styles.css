@@ -18,3 +18,24 @@
   cursor: pointer;
   user-select: none;
 }
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  margin: 0 auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  border: 1px solid black;
+  font-size: 72px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+  user-select: none;
+}
+
